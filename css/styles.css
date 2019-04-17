@@ -23,6 +23,12 @@ ul {
   text-align: center;
 }
 
+p {
+  border: solid 1px;
+  padding: 3px 25px;
+  font-size: 1.5rem;
+  text-align: center;
+}
 
 
 /*--------CLASS SECTION--------*/
@@ -46,7 +52,6 @@ ul {
 
 .header2 {
   image-resolution: 200px;
-  margin:
 }
 
 .main-body {
@@ -62,12 +67,16 @@ ul {
 .ytsd-1 {
   position: relative;
   display: inline-block;
-  left: 200px;
+  left: 100px;
+  padding-right: 100px;
+  text-align: center;
 
 }
 
 .header-paragraph {
   position: absolute;
   display: inline-block;
-  margin: auto;
+  left: 614px;
+  margin: 120px 0 0 0;
+  font-family: 'Neuton', serif;
 }
