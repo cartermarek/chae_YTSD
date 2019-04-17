@@ -1,0 +1,73 @@
+/**************TAG SECTION******************/
+
+a {
+  color: white;
+}
+
+
+body {
+  margin: 0 auto 0 auto;
+  font-family: 'Open Sans', serif;
+}
+
+
+div {
+  margin: 0;
+}
+
+div p, div ul{
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+
+
+/*--------CLASS SECTION--------*/
+
+.body2 {
+  padding: 3px;
+}
+
+.footer {
+  padding: 10px;
+}
+
+.header1 {
+  background-color: #C21807;
+  color: white;
+  padding: 3px 10px 3px;
+  text-align: right;
+  border: solid black;
+  border-width: 0 0 1px 0;
+}
+
+.header2 {
+  image-resolution: 200px;
+  margin:
+}
+
+.main-body {
+  background-color: #eaeaea;
+  padding: 10px;
+  border: solid;
+  border-width: 1px 0;
+  /*background-image: url("dance_bg1.jpg");
+  background-size: cover;*/
+}
+
+
+.ytsd-1 {
+  position: relative;
+  display: inline-block;
+  left: 200px;
+
+}
+
+.header-paragraph {
+  position: absolute;
+  display: inline-block;
+  margin: auto;
+}
