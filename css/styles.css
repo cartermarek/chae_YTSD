@@ -1,12 +1,10 @@
 /**************TAG SECTION******************/
 
-a {
-  color: white;
-}
+
 
 
 body {
-  margin: 0 auto 0 auto;
+  text-align: center;
   font-family: 'Open Sans', serif;
 }
 
@@ -15,43 +13,42 @@ div {
   margin: 0;
 }
 
-div p, div ul{
-  text-align: center;
-}
-
-ul {
-  text-align: center;
-}
-
-p.goals-paragarph {
-  border: solid 1px;
-  padding: 15px 10px;
-  font-size: 1.5rem;
-  text-align: center;
+img {
+  height: 200px;
+  max-width: 75%;
+  border-radius: 20px;
+  margin: auto;
 }
 
 
 /*--------CLASS SECTION--------*/
+
+.contact {
+  margin: auto;
+}
+
+.container-fluid {
+  padding: 0;
+}
 
 .body2 {
   padding: 3px;
 }
 
 .footer {
-  padding: 10px;
+  margin: auto;
 }
 
-.header1 {
-  background-color: #C21807;
-  color: white;
-  padding: 3px 10px 3px;
-  text-align: right;
-  border: solid black;
-  border-width: 0 0 1px 0;
+.goals-paragarph {
+  border: solid 1px;
+  padding: 15px 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto;
 }
 
-.header2 {
-  image-resolution: 200px;
+.key4 {
+  margin-top: 15px;
 }
 
 .main-body {
@@ -63,6 +60,15 @@ p.goals-paragarph {
   background-size: cover;*/
 }
 
+.logo {
+  image-resolution: 100px;
+}
+
+.logo1, .quote1 {
+  margin: auto;
+}
+
+/*
 
 .ytsd-1 {
   position: relative;
@@ -79,4 +85,7 @@ p.goals-paragarph {
   left: 614px;
   margin: 120px 0 0 0;
   font-family: 'Neuton', serif;
+  width: auto;
 }
+
+*/
