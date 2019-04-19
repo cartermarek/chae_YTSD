@@ -9,16 +9,9 @@ body {
 }
 
 
-div {
-  margin: 0;
-}
 
-img {
-  height: 200px;
-  max-width: 75%;
-  border-radius: 20px;
-  margin: auto;
-}
+
+
 
 
 /*--------CLASS SECTION--------*/
@@ -31,24 +24,21 @@ img {
   padding: 0;
 }
 
-.body2 {
-  padding: 3px;
+
+.card {
+  margin: 15px 15px;
 }
 
+.cards-1 {
+  padding: 0;
+}
 .footer {
-  margin: auto;
+  margin: 25px 0;
 }
 
-.goals-paragarph {
-  border: solid 1px;
-  padding: 15px 10px;
-  font-size: 1.5rem;
-  text-align: center;
-  margin: auto;
-}
 
 .key4 {
-  margin-top: 15px;
+  margin: 35px 15px;
 }
 
 .main-body {
@@ -60,11 +50,20 @@ img {
   background-size: cover;*/
 }
 
-.logo {
-  image-resolution: 100px;
+.bottom-footer {
+  text-align: center;
+  background-color: #eaeaea;
+  border-top: solid 1px;
+  padding-top: 7px;
 }
 
-.logo1, .quote1 {
+.bottom-quote {
+background-color: #eaeaea;
+border: solid 1px;
+padding: 16px 0 48px;
+}
+
+.quote1 {
   margin: auto;
 }
 
