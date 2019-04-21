@@ -23,6 +23,7 @@ img {
   padding: 0;
 }
 
+/******CAROUSEL SECTION*******/
 
 .carousel-inner {
   background-color: grey;
@@ -33,21 +34,25 @@ img {
   margin: auto;
 }
 
+.key4 {
+  margin: 15px;
+}
+
 /***** MAIN BODY *****/
 
 .main-body {
   background-color: #eaeaea;
-  padding: 15px;
-  border: solid;
-  border-width: 1px 0;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
   /*background-image: url("dance_bg1.jpg");
   background-size: cover;*/
 }
 
 
 /***** CARDS *****/
-.card {
-  margin: 15px 15px;
+
+.card-1 {
+  margin: auto;
 }
 
 .fas {
@@ -64,9 +69,7 @@ img {
   color: red;
 }
 
-.key4 {
-  margin: 35px 15px;
-}
+
 
 
 /***** FOOTER *****/
