@@ -1,29 +1,20 @@
 /**************TAG SECTION******************/
 
-
-
-
 body {
   text-align: center;
   font-family: 'Overpass', sans-serif;
 }
 
 img {
-  opacity: 0.6;
-  width: 100%;
+  opacity: 0.4;
+  max-width: 100%;
+  max-height: none;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 
-
-
-
-
 /*--------CLASS SECTION--------*/
 
-.carousel-item {
-background-color: white;
-}
 
 .contact {
   margin: auto;
@@ -34,32 +25,16 @@ background-color: white;
 }
 
 
-.card {
-  margin: 15px 15px;
+.carousel-inner {
+  background-color: grey;
 }
 
-.cards-1 {
-  padding: 0;
+.carousel-text {
+  font-size: 3rem;
+  margin: auto;
 }
 
-.fas {
-  padding: 7px;
-  border-bottom: solid 1px;
-}
-
-i:hover {
-  opacity: 0.5;
-  background-color: red;
-}
-
-.footer {
-  margin: 25px 0;
-}
-
-
-.key4 {
-  margin: 35px 15px;
-}
+/***** MAIN BODY *****/
 
 .main-body {
   background-color: #eaeaea;
@@ -71,6 +46,31 @@ i:hover {
 }
 
 
+/***** CARDS *****/
+.card {
+  margin: 15px 15px;
+}
+
+.fas {
+  padding: 7px;
+  border-bottom: solid 0.5px;
+}
+
+.footer {
+  margin: 25px 0;
+}
+
+.cards-1:hover {
+  opacity: 0.5;
+  color: red;
+}
+
+.key4 {
+  margin: 35px 15px;
+}
+
+
+/***** FOOTER *****/
 .bottom-footer {
   text-align: center;
   background-color: #eaeaea;
@@ -87,61 +87,3 @@ padding: 16px 0 48px;
 .quote1 {
   margin: auto;
 }
-
-.carousel-img {
-  background-color: red;
-}
-
-
-
-/******* MEDIA QUERIES: LAPTOP******/
-@media (min-width: 960px) {
-  .col-lg-3 {
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-}
-
-
-/******* MEDIA QUERIES: TABLETS******/
-@media (min-width: 775px) {
-  .col-md-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-
-
-
-/******* MEDIA QUERIES: MOBILE ******/
-
-@media (max-width: 774px){
- .col-sm-12 {
-   flex: 0 0 100%;
-   max-width: 100%;
- }
-}
-
-
-
-/*
-
-.ytsd-1 {
-  position: relative;
-  display: inline-block;
-  left: 100px;
-  padding-right: 100px;
-  text-align: center;
-
-}
-
-.header-paragraph {
-  position: absolute;
-  display: inline-block;
-  left: 614px;
-  margin: 120px 0 0 0;
-  font-family: 'Neuton', serif;
-  width: auto;
-}
-
-*/
