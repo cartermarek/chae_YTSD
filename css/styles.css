@@ -10,6 +10,7 @@ body {
 
 img {
   opacity: 0.6;
+  width: 100%;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
@@ -40,6 +41,17 @@ background-color: white;
 .cards-1 {
   padding: 0;
 }
+
+.fas {
+  padding: 7px;
+  border-bottom: solid 1px;
+}
+
+i:hover {
+  opacity: 0.5;
+  background-color: red;
+}
+
 .footer {
   margin: 25px 0;
 }
@@ -51,7 +63,7 @@ background-color: white;
 
 .main-body {
   background-color: #eaeaea;
-  padding: 10px;
+  padding: 15px;
   border: solid;
   border-width: 1px 0;
   /*background-image: url("dance_bg1.jpg");
@@ -79,6 +91,37 @@ padding: 16px 0 48px;
 .carousel-img {
   background-color: red;
 }
+
+
+
+/******* MEDIA QUERIES: LAPTOP******/
+@media (min-width: 960px) {
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+
+/******* MEDIA QUERIES: TABLETS******/
+@media (min-width: 775px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+
+/******* MEDIA QUERIES: MOBILE ******/
+
+@media (max-width: 774px){
+ .col-sm-12 {
+   flex: 0 0 100%;
+   max-width: 100%;
+ }
+}
+
 
 
 /*
